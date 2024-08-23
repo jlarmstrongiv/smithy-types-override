@@ -1,0 +1,25 @@
+{
+  "name": "smithy-types-override",
+  "version": "0.0.0",
+  "private": false,
+  "type": "module",
+  "description": "No-op package to override @smithy/types",
+  "homepage": "https://github.com/jlarmstrongiv/smithy-types-override",
+  "bugs": "https://github.com/jlarmstrongiv/smithy-types-override/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlarmstrongiv/smithy-types-override.git"
+  },
+  "license": "MIT",
+  "author": "John L. Armstrong IV",
+  "sideEffects": false,
+  "main": "index.js",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "typescript": "^5.5.4"
+  },
+  "packageManager": "npm@10.8.2",
+  "engines": {
+    "node": ">=18"
+  }
+}
